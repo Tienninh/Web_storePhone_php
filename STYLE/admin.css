@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for h1 element */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style for ul element */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for li element */
+li {
+    display: block;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Style for anchor element */
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+}
+
+/* Style for hover state of anchor element */
+a:hover {
+    background-color: #555;
+}
+
+/* Style for nested lists */
+ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    display: none;
+}
+
+/* Style for nested list items */
+ul ul li {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+}
+
+/* Style for hover state of nested anchors */
+ul li:hover > ul {
+    display: inherit;
+}

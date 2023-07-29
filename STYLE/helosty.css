@@ -1,0 +1,74 @@
+.phone_list{
+    margin-left: 350px;
+    margin-right: 350px;
+   
+}
+
+.title{
+    display: flex;
+    
+}
+
+.img_title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_content{
+    margin-top: 32px;
+}
+.img_apple{
+    height: 200px;
+    padding:20px;
+    /* padding-bottom: 100px;
+    background: rgb(2,0,36); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+.img_icon i{
+    color:#f59e0b;
+    
+}
+
+.img_gia{
+    display: flex;
+}
+
+.img_money{
+    color: red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 26px;
+
+}
+
+small{
+    margin-left: 10px;
+    text-decoration: line-through;
+    color:#9a9a9a;
+    /* border: 1px solid black; */
+    margin-top: 27px;
+}
+
+.img_thongtin{
+    font-size: 18px;
+}
+
+.img_btn{
+    text-align: center;
+    margin-left: 39px;
+    padding: 10px 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(88, 88, 244);
+    
+    color: white;
+    border-radius: 10px;
+}
+.img_btn:hover{
+background: rgb(62, 194, 62);
+}

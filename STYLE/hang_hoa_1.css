@@ -1,0 +1,187 @@
+.header{
+    display: flex;
+}
+.header_menu{
+
+}
+
+.menu_fiverr{
+    background-color: rgb(82, 82, 255);
+    color:white;
+    padding:15px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fiverr{
+    color:white;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu_list{
+    height: 647px;
+    background-color: rgba(0, 0, 0, 0.667);
+    padding-top:20px;
+}
+
+.list_li{
+    padding:10px 10px;
+    border-bottom: 1px solid #cccccc3b;
+   padding-left: 40px;
+   padding-top: 30px;
+}
+
+.list_li:hover{
+    background-color: #cccccc92;
+}
+.list_a{
+    color:#ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.list_li:hover a{
+    color:black;
+}
+
+.header_main{
+    padding:15px 40px;
+    /* background-color: aquamarine; */
+    width: 1240px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.513);
+    
+}
+
+.content_para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.content_table{
+    margin-left: 40px;
+   
+}
+
+tr{
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding:10px 50px; */
+}
+
+.tb_th{
+    text-transform: uppercase;
+    /* font-weight: normal; */
+    padding:10px 50px;
+    padding-right: 400px;
+    border-bottom: 1px solid #ccc;
+}
+.tb_td{
+    padding:10px 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tb_btn{
+    padding:7px 10px;
+    background-color: rgb(95, 95, 253);
+    border:none;
+    border-radius: 10px;
+}
+
+
+.btn_a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+
+
+.tb_h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+.table-bordered{
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+.tieude{
+    padding: 4px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.phanchinh{
+    padding:4px 20px;
+    font-size: 13px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.btn_chucnang{
+    padding:10px 10px;
+    /* background-color: red; */
+    border-radius: 10px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+.them{
+    background-color: blue;
+    color:white;
+}
+.sua{
+    background-color: #f59e0b;
+}
+.xoa{
+    background-color: red;
+}
+
+.table_them{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.td_name{
+    font-size: 20px;
+    padding:5px 10px;
+    padding-right: 20px;
+}
+
+.td_input{
+    padding:0 10px;
+    padding-right: 80px;
+}
+.form-control{
+    padding:5px 10px;
+    padding-right: 40px;
+}
+
+.btn-primary {
+    padding:10px 10px;
+    border:none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.td_main{
+    padding:10px 10px;
+}
